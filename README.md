@@ -2,7 +2,7 @@
 
 A deep learning system for detecting and classifying plant diseases from leaf images using CNNs.
 
-## 📊 Results
+##  Results
 
 | Metric | Value |
 |--------|-------|
@@ -11,7 +11,7 @@ A deep learning system for detecting and classifying plant diseases from leaf im
 | Classes | 15 |
 | Backbone | MobileNetV2 |
 
-## 🗂️ Project Structure
+##  Project Structure
 ```
 ├── models/
 │   ├── plant_disease_model.h5
@@ -28,13 +28,8 @@ A deep learning system for detecting and classifying plant diseases from leaf im
 └── requirements.txt
 ```
 
-## 🚀 Quick Start
-```bash
-pip install -r requirements.txt
-python src/predict.py path/to/leaf_image.jpg
-```
 
-## 📖 Pipeline
+##  Pipeline
 1. **Data** — PlantVillage dataset (54,000+ images, 38 disease classes)
 2. **Preprocessing** — Resize 224×224, normalize, 80/10/10 split
 3. **Augmentation** — Rotation, flips, zoom, brightness, shear
@@ -42,10 +37,10 @@ python src/predict.py path/to/leaf_image.jpg
 5. **Training** — Two-phase: head training → fine-tuning
 6. **Evaluation** — Confusion matrix, per-class accuracy, top-k predictions
 
-## 🌱 Results
+##  Results
 ![Training Curves](results/training_curves.png)
 ![Sample Predictions](results/sample_predictions.png)
 
-## 💡 Applications
+##  Applications
 - Early disease detection for precision agriculture
 - Reducing crop loss through timely intervention
