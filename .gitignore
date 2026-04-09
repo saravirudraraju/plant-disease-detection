@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+kaggle.json
+dataset_split/
+plantvillage/
